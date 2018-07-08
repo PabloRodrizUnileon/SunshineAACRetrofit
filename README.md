@@ -4,6 +4,7 @@ Changes made:
   - `OpenWeatherJsonParser` deleted, because parsing will be done by Retrofit and Gson.
   - `WeatherEntry` modified for the Retrofit implementation.
 
+
 ================================
 Original Readme:
 ================================
