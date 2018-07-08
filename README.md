@@ -1,3 +1,13 @@
+Sunshine app from Udacity Android Nanodegree, using Android Architecture Component from a Google Adroid Codelab tutorial,
+but modified to use RetroFit.
+Changes made: 
+  - `OpenWeatherJsonParser` deleted, because parsing will be done by Retrofit and Gson.
+  - `WeatherEntry` modified for the Retrofit implementation.
+
+================================
+Original Readme:
+================================
+
 Sunshine with Architecture Components
 ================================
 ## About
@@ -23,7 +33,6 @@ All classes related to fetching data from the network.
 ##### `data.database` package
 All classes related to caching the data locally (it's pretty empty right now).
 * WeatherEntry - A simple Java object representing one day of weather.
-
 
 ### `ui` package
 All activities and adapters - anything to do with display.
